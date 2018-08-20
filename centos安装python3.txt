@@ -21,3 +21,7 @@
 11.通过 pip3 -V 查看版本
 
 12. 已经安装成功 
+
+13. 参考链接 https://www.cnblogs.com/Mr-wangxd/p/7028285.html
+
+14. 参考链接 https://www.cnblogs.com/ESHLkangi/p/8545979.html
