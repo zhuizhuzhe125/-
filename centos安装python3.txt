@@ -1,0 +1,23 @@
+1. 首先在官网下载安装包 https://www.python.org/downloads/source/ 这个页面有两种安装包格式 下载 Gzipped source tarball。
+
+2. cd 到存放安装包的路径 解压安装包 tar -xvzf python-3.6.6 安装包名（例如：python-3.6.6）
+
+3. cd 到解压后的路径 cd python-3.6.6
+
+4. 添加配置 ./configure --prefix=/usr/python
+
+5. 执行 make
+
+6. 执行 make install (如遇权限问题 在开头加上 sudo )
+
+7. 创建版本的软链接（修改旧版本）sudo  mv /usr/bin/python /usr/bin/python_bak
+
+8. 创建新版本连接 sudo ln -s /usr/python/bin/python3 /usr/bin/python 
+
+9. 通过 pyhon -V 查看 python 版本
+
+10.创建pip3 软链接 sudo ln -s /usr/python/bin/pip3 /usr/bin/pip3
+
+11.通过 pip3 -V 查看版本
+
+12. 已经安装成功 
