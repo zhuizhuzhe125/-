@@ -1,0 +1,7 @@
+1. 启动 nginx : sudo /usr/local/nginx/sbin/nginx
+
+2. 查看 nginx 是否启动 ps aux|grep nginx
+
+3. 查看 ip 地址 : ifconfig 查看ens33对应的 inet 值
+
+
