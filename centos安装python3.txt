@@ -10,7 +10,7 @@
 
 6. 执行 make install (如遇权限问题 在开头加上 sudo )
 
-7. 创建版本的软链接（修改旧版本）sudo  mv /usr/bin/python /usr/bin/python_bak
+7. 创建版本的软链接（修改旧版本，建议不要修改）sudo  mv /usr/bin/python /usr/bin/python_bak
 
 8. 创建新版本连接 sudo ln -s /usr/python/bin/python3 /usr/bin/python 
 
@@ -25,3 +25,5 @@
 13. 参考链接 https://www.cnblogs.com/Mr-wangxd/p/7028285.html
 
 14. 参考链接 https://www.cnblogs.com/ESHLkangi/p/8545979.html
+
+15. 更改python 软链接后 yum 不能使用的问题 https://www.cnblogs.com/caiji/p/7891923.html(如果之是直接给python3创建软链接没有更改python2的软链接可以不用执行这一步)
