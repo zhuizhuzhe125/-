@@ -1,3 +1,11 @@
 centos 安装 mysql 
 
 https://www.linuxidc.com/Linux/2016-09/135288.htm
+
+
+centos 安装 nginx 
+
+https://www.cnblogs.com/jerrypro/p/7062101.html
+https://www.cnblogs.com/zhanghaoyong/p/7737536.html
+
+
